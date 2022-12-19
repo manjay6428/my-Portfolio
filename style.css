@@ -491,6 +491,11 @@ nav .fas{
     .copyright{
         font-size: 14px;
     }
+    #skill2{
+        display: none;
+    }
+
+
 }
 @media only screen and (max-width: 1000px){
     .skills h2{
@@ -524,4 +529,30 @@ nav .fas{
         justify-content: center;
         font-size: 7px;
     }
+}
+.skillbox{
+    width: 100px;
+    height: 87px;
+    background-color: gray;
+    position: relative;
+    margin-right: 8px;
+    border-radius: 8px;
+}
+.skillbox i{
+    position: absolute;
+    top: 20px;
+    font-size: 30px;
+    left: 38px;
+}
+.skillbox p{
+    position: absolute;
+    top: 57px;
+    font-size: 14px;
+    left: 25px;
+}
+#skill2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
 }
