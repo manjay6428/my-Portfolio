@@ -467,6 +467,9 @@ nav .fas{
         display: block;
         font-size: 25px;
     }
+    .social-nav i{
+        font-size: 15px;
+    }
     nav ul{
         background: #ff004f;
         position: fixed;
@@ -489,7 +492,7 @@ nav .fas{
         left: 25px;
         cursor: pointer;
     }
-    #header i{
+    #main-head i{
         display: block;
     }
     .sub-title{
