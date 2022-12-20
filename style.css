@@ -467,9 +467,13 @@ nav .fas{
         display: block;
         font-size: 25px;
     }
-    .social-nav i{
-        font-size: 15px;
+    .social-nav{
+        display: none;
     }
+    /* .social-nav i{
+        font-size: 15px;
+        margin-right: 1px;
+    } */
     nav ul{
         background: #ff004f;
         position: fixed;
