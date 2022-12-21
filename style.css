@@ -362,7 +362,7 @@ nav ul li a:hover::after{
     font-weight: 500;
     margin-bottom: 20px;
 }
-.layer a{
+ .layer a{
     margin-top: 20px;
     color: #ff004f;
     text-decoration: none;
@@ -493,6 +493,14 @@ nav .fas{
         font-size: 15px;
         margin-right: 1px;
     } */
+    .tab-contents ul li{
+        background-color: #222;
+        height: 80px;
+        width: 260px;
+        margin-bottom: 12px;
+        border-radius: 12px;
+        padding: 12px 12px;
+    }
     nav ul{
         background: #ff004f;
         position: fixed;
