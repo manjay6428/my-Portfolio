@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Nunito&family=Poppins:wght@200;300;400;500;600&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Varela+Round&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -115,6 +116,22 @@ nav ul li a:hover::after{
 .about-col2{
     flex-basis: 60%;
 }
+#ptag{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+.tab-contents ul li{
+    background-color: #222;
+    height: 80px;
+    width: 460px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    padding: 12px 12px;
+}
+.subtitle {
+    text-align: center;
+    margin-bottom: 12px;
+}
 .sub-title{
     font-size: 60px;
     font-weight: 600;
@@ -160,6 +177,7 @@ nav ul li a:hover::after{
     display: block;
 }
 /*-------------------skills--------------------*/
+
 .skills h2{
     font-weight: 400;
     letter-spacing: 1px;
@@ -167,6 +185,7 @@ nav ul li a:hover::after{
     margin-bottom: 5px;
     color: #fff;
     font-size: 16px;
+
 }
 #skills-section{
     /* display: inline-block;
@@ -522,7 +541,7 @@ nav .fas{
         font-size: 14px;
     }
     #skill2{
-        display: none;
+        visibility: hidden;
     }
 
 
