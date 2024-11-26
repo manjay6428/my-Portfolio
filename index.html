@@ -523,6 +523,12 @@
       function closemenu() {
         sidemenu.style.right = "-200px";
       }
+      sidemenu.addEventListener("click", function (event) {
+        // Check if the clicked element is an anchor tag
+        if (event.target.tagName === "A") {
+          closemenu(); // Close the menu
+        }
+      });
     </script>
     <script>
       const scriptURL =
